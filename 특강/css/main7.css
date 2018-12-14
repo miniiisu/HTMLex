@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url("font.css");
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color : black;
+
+}
+
+#wrap {
+	background: yellow;
+	/*height:200px;*/
+	position: relative;
+
+	width: 80%;
+
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+.box {
+	position: relative;
+
+	width: 250px;
+	height: 250px;
+
+	border: 3px solid black;
+	background: pink;
+	float: left;
+}
+
+#wrap .box:nth-child(1) {
+	background: red;
+}
+
+#wrap .box:nth-child(2) {
+	background: green;	
+}
+
+
